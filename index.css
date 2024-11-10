@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Sour Gummy", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: aqua;
+}
+.container{
+    margin: 100px auto;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    border-bottom:1px solid burlywood;
+    padding: 10px;
+}
+form input{
+    margin-right: 15px;
+    padding: 10px;
+    width:  60%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+form button{
+    padding: 5px 15px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+}
+.todo {
+  list-style: none;
+}
+.todo li{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e6e6 ;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+li.complete{
+    color: #aaa;
+}
+li.complete span{
+    text-decoration: line-through;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
