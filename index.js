@@ -39,7 +39,7 @@ function saveTodolist() {
     let todolistStore = [];
     todolistdom.forEach(item => {
         let text = item.querySelector('span').innerHTML;
-        let status = item.classList.contains('complete') ? 'completed' : 'incomplete';
+        let status = item.classList.contains('complete') ? 'completed' : 'incomplete'; // ss cac the li co class complete thi gan gia tri status completed
         todolistStore.push({
             text,
             status
